@@ -177,6 +177,7 @@ p {
     padding-top: 16px;
     padding-right: 32px;
     padding-bottom: 16px;
+    border: none;
 
     color: var(--background-color);
     background-color: var(--primary-brand);
@@ -216,7 +217,7 @@ p {
 }
 
 .text {
-    padding-top: 8px;
+    margin-top: 8px;
 
     color: var(--text);
     font-size: 16px;
@@ -261,8 +262,8 @@ p {
 }
 
 .name {
-    margin-top: 32px;
-    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 /* footer */
@@ -349,17 +350,18 @@ p {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.card-element:nth-child(3n + 1) {
+.card-element {
     margin-left: 24px;
+} 
+
+.card-element:nth-child(3n + 1) {
+    margin-left:0px;
 }
 
 .card-element:nth-child(-n + 6) {
     margin-bottom: 48px;
 }
 
-.cards {
-    color: var(--dark);
-}
 
 
 
